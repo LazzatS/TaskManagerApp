@@ -17,6 +17,14 @@
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
 
+    UIWindow *window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
+    LoginViewController *rootVC = [[LoginViewController alloc] init];
+    
+    window.rootViewController = rootVC;
+    
+    self.window = window;
+    [self.window makeKeyAndVisible];
+    
 }
 
 
