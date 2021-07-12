@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		12843A05269CC86200F1288A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12843A04269CC86200F1288A /* AppDelegate.m */; };
 		12843A08269CC86200F1288A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12843A07269CC86200F1288A /* SceneDelegate.m */; };
-		12843A0B269CC86200F1288A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12843A0A269CC86200F1288A /* ViewController.m */; };
-		12843A0E269CC86200F1288A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12843A0C269CC86200F1288A /* Main.storyboard */; };
 		12843A10269CC87000F1288A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12843A0F269CC87000F1288A /* Assets.xcassets */; };
 		12843A13269CC87000F1288A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12843A11269CC87000F1288A /* LaunchScreen.storyboard */; };
 		12843A16269CC87000F1288A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12843A15269CC87000F1288A /* main.m */; };
@@ -22,9 +20,6 @@
 		12843A04269CC86200F1288A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		12843A06269CC86200F1288A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		12843A07269CC86200F1288A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		12843A09269CC86200F1288A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12843A0A269CC86200F1288A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		12843A0D269CC86200F1288A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		12843A0F269CC87000F1288A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12843A12269CC87000F1288A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12843A14269CC87000F1288A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,9 +60,6 @@
 				12843A04269CC86200F1288A /* AppDelegate.m */,
 				12843A06269CC86200F1288A /* SceneDelegate.h */,
 				12843A07269CC86200F1288A /* SceneDelegate.m */,
-				12843A09269CC86200F1288A /* ViewController.h */,
-				12843A0A269CC86200F1288A /* ViewController.m */,
-				12843A0C269CC86200F1288A /* Main.storyboard */,
 				12843A0F269CC87000F1288A /* Assets.xcassets */,
 				12843A11269CC87000F1288A /* LaunchScreen.storyboard */,
 				12843A14269CC87000F1288A /* Info.plist */,
@@ -134,7 +126,6 @@
 			files = (
 				12843A13269CC87000F1288A /* LaunchScreen.storyboard in Resources */,
 				12843A10269CC87000F1288A /* Assets.xcassets in Resources */,
-				12843A0E269CC86200F1288A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +136,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12843A0B269CC86200F1288A /* ViewController.m in Sources */,
 				12843A05269CC86200F1288A /* AppDelegate.m in Sources */,
 				12843A16269CC87000F1288A /* main.m in Sources */,
 				12843A08269CC86200F1288A /* SceneDelegate.m in Sources */,
@@ -155,14 +145,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		12843A0C269CC86200F1288A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				12843A0D269CC86200F1288A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		12843A11269CC87000F1288A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
