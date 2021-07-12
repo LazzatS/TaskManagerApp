@@ -12,6 +12,7 @@
 		12843A10269CC87000F1288A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12843A0F269CC87000F1288A /* Assets.xcassets */; };
 		12843A13269CC87000F1288A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12843A11269CC87000F1288A /* LaunchScreen.storyboard */; };
 		12843A16269CC87000F1288A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12843A15269CC87000F1288A /* main.m */; };
+		12843A21269CD08300F1288A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12843A20269CD08300F1288A /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		12843A12269CC87000F1288A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12843A14269CC87000F1288A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12843A15269CC87000F1288A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12843A1F269CD08300F1288A /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		12843A20269CD08300F1288A /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		12843A02269CC86200F1288A /* Task Manager */ = {
 			isa = PBXGroup;
 			children = (
+				12843A1E269CD03200F1288A /* LoginViewController */,
 				12843A03269CC86200F1288A /* AppDelegate.h */,
 				12843A04269CC86200F1288A /* AppDelegate.m */,
 				12843A06269CC86200F1288A /* SceneDelegate.h */,
@@ -66,6 +70,15 @@
 				12843A15269CC87000F1288A /* main.m */,
 			);
 			path = "Task Manager";
+			sourceTree = "<group>";
+		};
+		12843A1E269CD03200F1288A /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				12843A1F269CD08300F1288A /* LoginViewController.h */,
+				12843A20269CD08300F1288A /* LoginViewController.m */,
+			);
+			path = LoginViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12843A21269CD08300F1288A /* LoginViewController.m in Sources */,
 				12843A05269CC86200F1288A /* AppDelegate.m in Sources */,
 				12843A16269CC87000F1288A /* main.m in Sources */,
 				12843A08269CC86200F1288A /* SceneDelegate.m in Sources */,
